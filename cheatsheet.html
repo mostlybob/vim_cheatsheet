@@ -12,6 +12,12 @@
 <body>
 	<h1>Jon's VIM cheatsheet</h1>
 	<h2>File management</h2>
+		<ul>* :w name Write edit buffer to file name</ul>
+		<ul>* :wq Write to file and quit</ul>
+		<ul>* :q! Quit without saving changes</ul>
+		<ul>* ZZ Same as :wq</ul>
+		<ul>* :sh Execute shell commands (<ctrl>d)</ul>
+	<h2>Cursor movement</h2>
 	    <ul>* h - move left</ul>
 		<ul>* j - move down</ul>
 		<ul>* k - move up</ul>
@@ -25,8 +31,23 @@
 		<ul>* 0 - (zero) start of line</ul>
 		<ul>* ^ - first non-blank character of line</ul>
 		<ul>* $ - end of line</ul>
-		<ul>* G - Go To command (prefix with number - 5G goes to line 5)</ul>
-	<h2>Cursor movement</h2>
+	<h2>Window movement</h2>	
+		<ul><ctrl>d Scroll down (half a screen)</ul>
+		<ul><ctrl>u Scroll up (half a screen)</ul>
+		<ul><ctrl>f Page forward</ul>
+		<ul><ctrl>b Page backward</ul>
+		<ul>/string Search forward</ul>
+		<ul>?string Search backward</ul>
+		<ul><ctrl>l Redraw screen</ul>
+		<ul><ctrl>g Display current line number and file information</ul>
+		<ul>n Repeat search</ul>
+		<ul>N Repeat search reverse</ul>
+		<ul>G Go to last line</ul>
+		<ul>nG Go to line n</ul>
+		<ul>:n Go to line n</ul>
+		<ul>z<CR> Reposition window: cursor at top</ul>
+		<ul>z. Reposition window: cursor in middle</ul>
+		<ul>z- Reposition window: cursor at bottom</ul>
 	<h2>Recommended plugins</h2>
 </body>
 </html>
